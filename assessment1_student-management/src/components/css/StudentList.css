@@ -1,0 +1,104 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background: #4CAF50;
+    color: black;
+}
+
+td, th {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background: #f1f1f1;
+}
+
+
+.add-btn {
+    padding: "5px 15px";
+    cursor: "pointer";
+    background-color: #4CAF50;
+    color: white;
+    width: 90px;
+    height: 50px;
+    font-size: larger;
+    border: none;
+}
+
+.add-btn:hover{
+    background-color: white;
+    color:#4CAF50;
+    border:2px solid;
+    
+    text-decoration: underline #4CAF50;
+}
+
+.add-icon{
+    
+    right: "50px";
+    top: "60%";
+    transform: "translateY(-90%)";
+    background: "none";
+    border: none;
+    cursor: "pointer";
+    background-color: transparent;
+    color: #4CAF50;
+    cursor: pointer;
+}
+
+.action-add-btn{
+    padding: "5px 15px";
+    cursor: "pointer";
+    background-color: #4CAF50;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: medium;
+    border: none;
+}
+
+.action-add-btn:hover{
+    background-color: white;
+    color:#4CAF50;
+    border:2px solid;    
+    text-decoration: underline #4CAF50;
+}
+
+.action-del-btn{
+    padding: "5px 15px";
+    cursor: "pointer";
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: medium;
+    border: none;
+}
+
+.action-del-btn:hover{
+    background-color: white;
+    color:red;
+    border:2px solid;
+    
+    text-decoration: underline red;
+}
+
+
